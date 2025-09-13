@@ -402,7 +402,7 @@ nav a:focus,
 
 .project-cards-menu {
     display: flex;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
     align-items: flex-start;
     justify-content: flex-start;
     column-gap: 24px;
@@ -547,4 +547,63 @@ nav a:focus,
     width: 24px;
     height: 24px;
     fill: #f4f4fd;
+}
+
+.footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.footer-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
+.footer-form-label .form-input {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    margin-right: 47px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding: 8px 0 8px 16px;
+}
+
+.form-input::placeholder {
+    color: #fff;
+}
+
+.form-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+    background: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+}
+
+.footer-form-icon {
+    fill: #fff;
 }
